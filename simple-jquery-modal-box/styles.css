@@ -9,7 +9,7 @@ body {
 	color: #ff3a81;
 }
 .overlay {
-	background: transparent url(/img/entertainment/common/1px-000000-60.png) repeat 50% 50%;
+	background: transparent url() repeat 50% 50%;
 	bottom: 0;
 	display: none; 
 	height: 100%;
@@ -37,8 +37,8 @@ body {
 	text-decoration: underline;
 }
 .contact-form .close {
-	background: transparent url(/img/hp/modal-close.png) no-repeat 0 0;
-	_background-image: url(/img/hp/modal-close.gif);
+	background: transparent url() no-repeat 0 0;
+	_background-image: url();
 	height: 28px;
 	overflow: hidden;
 	position: absolute;
@@ -93,8 +93,8 @@ body {
 	width: 431px;
 }
 .comment-form .submit {
-	background: transparent url(/img/hp/modal-submit.png) no-repeat 0 0;
-	_background-image: url(/img/hp/modal-submit.gif);
+	background: transparent url() no-repeat 0 0;
+	_background-image: url();
 	color: #fff;
 	cursor: pointer;
 	float: right;
