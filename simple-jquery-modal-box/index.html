@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  	<title>Simple jQuery Modal Box</title>
+  	<meta name="description" content="">
+ 	<meta name="author" content="David Holloway">
+ 	<link rel="stylesheet" href="styles.css"> 	
+ 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 	<script src="script.js"></script> 	
+</head>
+<body>
+<a href="#" class="feedback-form">Feedback Form</a>
+<div class="overlay">
+	<div class="contact-form result">
+		<a href="#" class="close">Close</a>
+		<h2>Website Feedback</h2>
+		<div class="comment-form clearfix">
+			<h3>Your feedback helps us improve our website</h3>
+			<form id="" action="" method="post" onsubmit="return validate();">						
+				<input type="hidden" name="" value="" />
+				<select name="comment-type" id="comment-type">
+					<option value="Not-selected">Select feedback type</option>
+					<option value="Suggestion">Suggestion</option>
+					<option value="Problem-with-site">Problems with the website</option>
+					<option value="Other">Other issue</option>
+				</select>
+				<label>Comments
+					<textarea name="comment" id="comment"></textarea>
+				</label>
+				<input class="submit" type="submit" name="Submit" value="Submit">
+			</form>
+		</div>
+		<div class="comment-form-result">
+			<h3>Submission successful!</h3>
+			<span>Thank you for your feedback</span>
+			<a href="#">Close this window</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
