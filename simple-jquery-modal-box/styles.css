@@ -1,0 +1,113 @@
+/*
+	=feedback Modal
+************************************************************************************************/
+body {
+	position: relative;
+}
+.feedback-form {
+	font-size: 25px;
+	color: #ff3a81;
+}
+.overlay {
+	background: transparent url(/img/entertainment/common/1px-000000-60.png) repeat 50% 50%;
+	bottom: 0;
+	display: none; 
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+}
+.contact-form {
+	background: #000;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 170px;
+	padding: 16px 20px 19px;
+	position: absolute;
+	right: 40%;
+	text-align: left;
+	width: 481px;
+}
+.contact-form a {
+	color: #c00;
+	text-decoration: underline;
+}
+.contact-form .close {
+	background: transparent url(/img/hp/modal-close.png) no-repeat 0 0;
+	_background-image: url(/img/hp/modal-close.gif);
+	height: 28px;
+	overflow: hidden;
+	position: absolute;
+	right: -7px;
+	text-indent: -9999px;
+	top: -4px;
+	width: 28px;
+}
+.contact-form h2 {
+	color: #fff;
+	font-size: 22px;
+	font-weight: normal;
+	padding-bottom: 15px;
+}
+.comment-form form {
+	border-bottom: 1px dotted #bbb;
+	display: block;
+	float: left;
+	padding-bottom: 23px;
+}
+.comment-form,
+.comment-form-result {
+	background: #fff;
+	border-radius: 5px;
+	padding: 20px;
+}
+.comment-form-result {
+	display: none;
+}
+.comment-form-result h3,
+.comment-form-result span,
+.comment-form h3 {
+	font-size: 16px;
+	font-weight: normal;
+	padding-bottom: 16px;
+}
+.comment-form select,
+.comment-form textarea {
+	border: 1px solid #333;
+	border-radius: 3px;
+	padding: 2px;
+	width: 437px;
+}
+.comment-form label {
+	display: block;
+	padding: 6px 0 25px;
+}
+.comment-form textarea {
+	font: 12px/1.5em Helvetica,Arial,sans-serif;
+	height: 81px;
+	padding: 2px;
+	width: 431px;
+}
+.comment-form .submit {
+	background: transparent url(/img/hp/modal-submit.png) no-repeat 0 0;
+	_background-image: url(/img/hp/modal-submit.gif);
+	color: #fff;
+	cursor: pointer;
+	float: right;
+	font-weight: bold;
+	height: 30px;
+	width: 77px;
+}
+.comment-form p {
+	float: left;
+	padding-top: 10px;
+}
+.comment-form-result a {
+	display: block;
+	margin-top: 25px;
+	text-align: center;
+}
